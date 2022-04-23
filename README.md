@@ -10,50 +10,51 @@ In this analysis, we are identifying potential Credit Risks based on a given dat
 
 ![Random Oversampling](https://i.imgur.com/zxVZGPR.png)
 
-Our accuracy is 64.7%.
-High-Risk is around 1% Precision, and a 62% sensitivity.
-Low-Risk is at 100% Precision due to out-numbering High-Risk, with a 67% sensitivity rating.
+ - Our accuracy is 64.7%.
+ - High-Risk is around 1% Precision, and a 62% sensitivity.
+ - Low-Risk is at 100% Precision due to out-numbering High-Risk, with a 67% sensitivity rating.
 
 # For SMOTE Over-Sampling:
 
 ![SMOTE Oversampling](https://i.imgur.com/IvjFy5S.png)
 
-Our accuracy is 62.5%.
-High-Risk is around 1% Precision, and a 62% sensitivity.
-Low-Risk is at 100% Precision due to out-populating High-Risk, with a 63% sensitivity rating.
+ - Our accuracy is 62.5%.
+ - High-Risk is around 1% Precision, and a 62% sensitivity.
+ - Low-Risk is at 100% Precision due to out-populating High-Risk, with a 63% sensitivity rating.
 
 # For Under-Sampling:
 
 ![Undersampling](https://i.imgur.com/cyU6S3j.png)
 
-Our accuracy is 51.2%.
-High-Risk is around 1% Precision, and a 57% sensitivity rating.
-Low-Risk is at 100% Precision due to out-populating High-Risk still, with a 45% sensitivity rating due to false-positives.
+ - Our accuracy is 51.2%.
+ - High-Risk is around 1% Precision, and a 57% sensitivity rating.
+ - Low-Risk is at 100% Precision due to out-populating High-Risk still, with a 45% sensitivity rating due to false-positives.
 
 # For SMOTEENN:
 
 ![SMOTEENN](https://i.imgur.com/xVhZBRT.png)
 
-Our accuracy is 61.9%.
-High-Risk is around 1% Precision, and a 69% sensitivity rating.
-Low-Risk is at 100% Precision, again because of out-populating High-Risk, and a sensitivity rating of 55%, caused by false-positives.
+ - Our accuracy is 61.9%.
+ - High-Risk is around 1% Precision, and a 69% sensitivity rating.
+ - Low-Risk is at 100% Precision, again because of out-populating High-Risk, and a sensitivity rating of 55%, caused by false-positives.
 
 # For Balanced Random Forest:
 
 ![BRFC](https://i.imgur.com/qwyQoh6.png)
 
-Our accuracy is 78.8%.
-High-Risk is around 4% Precision, and a 67% sensitivity rating.
-Low-Risk continues to stay at 100% Precision, with a 91% sensitivity rating, indicating a lower number of false-positives.
+ - Our accuracy is 78.8%.
+ - High-Risk is around 4% Precision, and a 67% sensitivity rating.
+ - Low-Risk continues to stay at 100% Precision, with a 91% sensitivity rating, indicating a lower number of false-positives.
 
 # For AdaBoost:
 
 ![AdaBoost](https://i.imgur.com/1G0VoYW.png)
 
-Our accuracy is 92.5%.
-High-Risk is around 7% Precision, and a 91% sensitivity rating.
-Low-Risk still is at 100% Precision, and a 94% sensitivity rating.
+ - Our accuracy is 92.5%.
+ - High-Risk is around 7% Precision, and a 91% sensitivity rating.
+ - Low-Risk still is at 100% Precision, and a 94% sensitivity rating.
 Take note of the F1 rating for this report for High-Risk, as it is the highest of all of our previous models.
+
 This should have an overall lower number of false-positives.
 
 ## Summary
